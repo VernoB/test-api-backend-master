@@ -1,0 +1,20 @@
+{
+  "app": "Blank API for backend developer",
+  "db": {
+    "URI": "mongodb+srv://m001-student:m001-student@sandbox.lxrty.mongodb.net/backenmaster",
+    "HOME": "mongodb://localhost:27017/backendmanagment",
+    "TEST": "mongodb+srv://m001-student:m001-student@sandbox.lxrty.mongodb.net/backenmaster-test"
+  },
+  "port": 2114,
+  "jwt_ttl": 604800,
+  "log": {
+    "path": "test_task_api.log",
+    "console": true,
+    "debug": true
+  },
+  "company_id": "62a0d1a1629498b9b1aebd12",
+  "contact_id": "16",
+  "uploads_dir": "./uploads",
+  "images_dir": "public/images/",
+  "thumb_size": 160
+}

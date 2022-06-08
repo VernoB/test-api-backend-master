@@ -1,0 +1,47 @@
+{
+  "name": "testtaskapi",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js",
+    "test": "mocha --timeout 10000"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "~1.4.6",
+    "cors": "^2.8.5",
+    "debug": "~4.3.3",
+    "express": "~4.17.2",
+    "express-http-context": "^1.2.4",
+    "express-validator": "^6.14.1",
+    "helmet": "^5.1.0",
+    "http-errors": "~2.0.0",
+    "jimp": "^0.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "log4js": "^6.4.1",
+    "marked": "^4.0.12",
+    "mongoose": "^6.3.5",
+    "morgan": "~1.10.0",
+    "multer": "^1.4.4",
+    "node-cron": "^3.0.0",
+    "swagger-ui-express": "^4.4.0",
+    "validator-js": "^0.2.1"
+  },
+  "devDependencies": {
+    "chai-as-promised": "^7.1.1",
+    "chai-sinon": "^2.8.1",
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "mocha": "^10.0.0",
+    "sinon": "^14.0.0"
+  }
+}
